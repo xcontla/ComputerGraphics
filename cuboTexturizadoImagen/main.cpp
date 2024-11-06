@@ -1,7 +1,7 @@
 
 #include <iostream>
+// debe de estar en el main
 #define STB_IMAGE_IMPLEMENTATION
-//#include "./header/stb_image.h"
 
 #include "./header/ventana.h"
 #include "./header/shader.h"

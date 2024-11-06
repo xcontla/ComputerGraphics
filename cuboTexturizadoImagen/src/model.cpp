@@ -20,6 +20,7 @@
         indices[24] =0;indices[25] = 7;indices[26] = 3;indices[27] = 7;indices[28] = 0;indices[29] = 4; // Cara izquierda
         indices[30] =1;indices[31] = 2;indices[32] = 6;indices[33] = 6;indices[34] = 5;indices[35] = 1; // Cara derecha
 
+        //asignamos coordenadas de vértices
         uv[0] = 0.0f; uv[1] = 0.0f; 
         uv[2] = 1.0f; uv[3] = 0.0f; 
         uv[4] = 1.0f; uv[5] = 1.0f; 
