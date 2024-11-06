@@ -27,7 +27,7 @@
     {
 
     modelmat = glm::mat4(1.0f);
-    shader = new Shader("./shader/cubo_shade.vert","./shader/cubo_shade.frag");
+    shader = new Shader("./shader/cubo_shade_phong.vert","./shader/cubo_shade_phong.frag");
          // Crear y enlazar el VAO y VBO
     
     glGenVertexArrays(1, &VAO);
