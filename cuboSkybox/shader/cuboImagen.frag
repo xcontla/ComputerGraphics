@@ -29,5 +29,5 @@ void main()
     int iterations = mandelbrot(uv  * 4.0 - 2.0 );
 
     float man_color = float(iterations) / 100.0;
-    color = texture(texture0, uv) * man_color;
+    color = texture(texture0, uv) ; //* man_color;
 }

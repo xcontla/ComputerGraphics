@@ -4,7 +4,7 @@ LDFLAGS = -lglfw -lGL -lGLEW
 
 SRC_FILES = main.cpp src/shader.cpp  src/model.cpp src/ventana.cpp
 OBJ_FILES = $(SRC_FILES:.cpp=.o)
-TARGET = cuboTexturizadoImagen
+TARGET = skybox
 
 # Reglas
 all: $(TARGET)

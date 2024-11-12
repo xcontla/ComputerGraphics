@@ -11,8 +11,8 @@ class Model{
 public:
 
     Shader* shader;
-    GLfloat vertices[48];
-    GLfloat uv[16];
+    GLfloat vertices[84];
+    GLfloat uv[28];
     GLuint indices[36];
     Textura* textura;
     float angle;
